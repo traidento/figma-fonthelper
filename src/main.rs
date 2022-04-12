@@ -7,7 +7,7 @@ mod server;
 mod utils;
 
 fn main() {
-  args::init();
-  log::init();
-  app::init();
+    args::init();
+    log::init();
+    app::init();
 }
