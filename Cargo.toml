@@ -1,19 +1,19 @@
 [package]
 name = "figma-fonthelper"
-version = "0.1.6"
+version = "0.1.7"
 authors = ["Chugunov Roman <Zebs-BMK@yandex.ru>"]
-edition = "2018"
+edition = "2021"
 license = "GPL-2.0-only"
-description = "Figma font daemon written in Rust."
+description = "Figma font daemon written in Rust"
 homepage = "https://github.com/traidento/figma-fonthelper"
 repository = "https://github.com/traidento/figma-fonthelper.git"
 
 [dependencies]
-libfonthelper = "0.2.4"
-simple-server = "0.4.0"
+libfonthelper = "0.2"
+simple-server = "0.4"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-flexi_logger = "0.14.3"
-log = "0.4.8"
-percent-encoding = "2.1.0"
-xdg = "^2.2"
+flexi_logger = "0.22"
+log = "0.4"
+percent-encoding = "2.1"
+xdg = "2.4"
