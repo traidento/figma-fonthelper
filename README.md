@@ -1,3 +1,8 @@
+# Deprecation Notice
+
+You should use this instead:
+<https://github.com/neetly/figma-agent-linux>
+
 # Font Helper
 
 **Font Helper for Figma for Linux OS.**
